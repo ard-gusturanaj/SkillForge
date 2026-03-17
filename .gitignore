@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Tooling leftovers
+pnpm-lock.yaml
+pnpm-workspace.yaml
+replit.md

@@ -1,0 +1,21 @@
+packages:
+  "framer-motion": "For page transitions, glassmorphism entry effects, and micro-interactions"
+  "react-hook-form": "For robust and performant form state management"
+  "@hookform/resolvers": "To use Zod schemas for form validation"
+  "date-fns": "For formatting human-readable dates in projects and notifications"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes without style conflicts"
+  "zustand": "For lightweight global state if needed beyond React Query"
+
+images:
+  - path: "artifacts/skillforge/public/images/hero-bg.png"
+    description: "Dark moody abstract 3D geometric shapes floating in a deep navy and indigo space, subtle glowing cyan and purple accents, professional sleek developer aesthetic, 8k resolution, depth of field"
+    aspect_ratio: "16:9"
+  - path: "artifacts/skillforge/public/images/empty-state.png"
+    description: "Minimalist glowing wireframe or blueprint illustration on a dark navy background, sleek developer neon blue aesthetic, subtle and clean"
+    aspect_ratio: "1:1"
+
+notes:
+  - "The app assumes a customFetch wrapper in @workspace/api-client-react handles injecting the 'Authorization: Bearer <token>' header from localStorage."
+  - "The app defaults to a custom dark theme designed for developers (deep navies, indigo, cyan)."
+  - "React Query hooks are imported directly from @workspace/api-client-react."
