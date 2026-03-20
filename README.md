@@ -4,15 +4,15 @@ SkillForge is a full-stack collaboration platform where developers can showcase 
 
 ## Tech Stack
 
-- Frontend: React 19, TypeScript, Vite, Tailwind CSS
-- Backend: Node.js, Express 5, TypeScript
+- Frontend: React, TypeScript, Vite, Tailwind CSS
+- Backend: Node.js, Express, TypeScript
 - Database: PostgreSQL, Drizzle ORM
 - API contracts: OpenAPI + Orval-generated client/types
 - Monorepo: npm workspaces
 
 ## Repository Structure
 
-```text
+
 .
 ├─ artifacts/
 │  ├─ skillforge/       # Frontend app (Vite)
@@ -42,11 +42,6 @@ Required:
 - `DATABASE_URL`
 - `JWT_SECRET`
 - `PORT` (API server port, default rec: `8080`)
-
-Optional:
-
-- `BASE_PATH` (frontend base path, default `/`)
-- `API_TARGET` (frontend proxy target, default `http://localhost:8080`)
 
 PowerShell example:
 
